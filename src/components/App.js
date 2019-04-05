@@ -41,7 +41,6 @@ class App extends Component {
           </div>
           <div className="navbar-nav ml-auto">
             <div className="user-detail-section">
-              <span className="pr-2">Hi, Sean</span>
               <span className="img-container">
                 <img src="" className="rounded-circle" alt="user" />
               </span>
@@ -50,6 +49,21 @@ class App extends Component {
         </Nav>
 
         <div className="container-fluid">
+          <div className="row">
+            <div className="col-lg-3 col-sm-6">
+              <div className="card">
+                <div className="card-heading">
+                  <div>
+                    Total Revenue
+                  </div>
+                </div>
+                <div className="card-value">
+                  <span>$</span>
+
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </Container>
     );
